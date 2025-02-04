@@ -1,0 +1,30 @@
+export type CustomerCardModel = {
+  id?: string
+  lastDigits: string
+  expiredDate?: string
+  isDefault?: boolean
+  paymentGatewayToken?: string
+  address?: string
+  cvcCheck?: string
+  expires?: string
+  cardBrand?: string
+  issuer?: null
+  origin?: string
+  streetCheck?: string
+  zipCheck?: string
+  address1?: string
+  address2?: string
+  zipCode?: string
+  cardholderEmail?: string
+  cardholderName?: string
+  cardHolderEmail?: string
+  cardHolderName?: string
+  countryId?: string
+  cpf?: string
+  cnpj?: string
+  documentSelected?: string
+  payerPhone?: string
+  payerName?: string
+  city?: string
+  state?: string
+}
